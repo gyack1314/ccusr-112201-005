@@ -1,0 +1,12 @@
+{"request_id":"N0","kind":"delivery","weather_bucket":"clear","coverage_class":"strong","start":"2026-06-30T09:00:00+08:00","end":"2026-07-01T09:00:00+08:00","asset_kind":"vehicle"}
+{"request_id":"N1","kind":"inspection","weather_bucket":"rain","coverage_class":"strong","start":"2026-07-01T09:00:00+08:00","end":"2026-07-02T09:00:00+08:00","asset_kind":"vehicle"}
+{"request_id":"N2","kind":"delivery","weather_bucket":"clear","coverage_class":"strong","start":"2026-07-02T09:00:00+08:00","end":"2026-07-03T09:00:00+08:00","asset_kind":"vehicle"}
+{"request_id":"N3","kind":"inspection","weather_bucket":"rain","coverage_class":"strong","start":"2026-06-30T09:00:00+08:00","end":"2026-07-01T09:00:00+08:00","asset_kind":"vehicle"}
+{"request_id":"N4","kind":"delivery","weather_bucket":"clear","coverage_class":"strong","start":"2026-07-01T09:00:00+08:00","end":"2026-07-02T09:00:00+08:00","asset_kind":"vehicle"}
+{"request_id":"N5","kind":"inspection","weather_bucket":"rain","coverage_class":"strong","start":"2026-07-02T09:00:00+08:00","end":"2026-07-03T09:00:00+08:00","asset_kind":"vehicle"}
+{"request_id":"N6","kind":"delivery","weather_bucket":"clear","coverage_class":"strong","start":"2026-06-30T09:00:00+08:00","end":"2026-07-01T09:00:00+08:00","asset_kind":"vehicle"}
+{"request_id":"N7","kind":"inspection","weather_bucket":"rain","coverage_class":"strong","start":"2026-07-01T09:00:00+08:00","end":"2026-07-02T09:00:00+08:00","asset_kind":"vehicle"}
+{"request_id":"N8","kind":"delivery","weather_bucket":"clear","coverage_class":"strong","start":"2026-07-02T09:00:00+08:00","end":"2026-07-03T09:00:00+08:00","asset_kind":"vehicle"}
+{"request_id":"N9","kind":"inspection","weather_bucket":"rain","coverage_class":"strong","start":"2026-06-30T09:00:00+08:00","end":"2026-07-01T09:00:00+08:00","asset_kind":"vehicle"}
+{"request_id":"N10","kind":"delivery","weather_bucket":"clear","coverage_class":"strong","start":"2026-07-01T09:00:00+08:00","end":"2026-07-02T09:00:00+08:00","asset_kind":"vehicle"}
+{"request_id":"N11","kind":"inspection","weather_bucket":"rain","coverage_class":"strong","start":"2026-07-02T09:00:00+08:00","end":"2026-07-03T09:00:00+08:00","asset_kind":"vehicle"}

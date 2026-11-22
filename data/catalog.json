@@ -1,0 +1,122 @@
+{
+  "synthetic": true,
+  "encoding": "UTF-8",
+  "tables": {
+    "missions": {
+      "count": 120,
+      "fields": [
+        "mission_id",
+        "kind",
+        "weather_bucket",
+        "coverage_class",
+        "started_at",
+        "status"
+      ],
+      "primary_key": [
+        "mission_id"
+      ],
+      "sha256": "d011936d9d74a07791c800765bfbc64ac68f2c367a9df0d3ecdbf0883e845615"
+    },
+    "legs": {
+      "count": 240,
+      "fields": [
+        "leg_id",
+        "mission_id",
+        "route_segment",
+        "vehicle",
+        "handoff_to",
+        "start",
+        "end"
+      ],
+      "primary_key": [
+        "leg_id"
+      ],
+      "sha256": "0a989e05f47d8826688d0f53d84510b64a40074fd6665e26be22b62d439205e5"
+    },
+    "telemetry": {
+      "count": 600,
+      "fields": [
+        "telemetry_id",
+        "leg_id",
+        "quality",
+        "link_margin",
+        "occurred_at",
+        "received_at"
+      ],
+      "primary_key": [
+        "telemetry_id"
+      ],
+      "sha256": "aadf0f5e26016ce1282831183546ae64a0f10de7641960441bc20748957fdfbf"
+    },
+    "delivery_receipts": {
+      "count": 100,
+      "fields": [
+        "receipt_id",
+        "mission_id",
+        "accepted",
+        "received_at"
+      ],
+      "primary_key": [
+        "receipt_id"
+      ],
+      "sha256": "03e28e71f6960379749a77c6017b47cc651f8f7392bd1cce8ca37827fc7560c6"
+    },
+    "reserve_assets": {
+      "count": 10,
+      "fields": [
+        "asset_id",
+        "kind",
+        "available_from",
+        "available_to"
+      ],
+      "primary_key": [
+        "asset_id"
+      ],
+      "sha256": "0abf64ded1d1e1417f5e1efd7a3b388b6456a98fb1bb768a3181cec91aceaa44"
+    },
+    "confirmed_missions": {
+      "count": 1,
+      "fields": [
+        "confirm_id",
+        "request_id",
+        "asset_id",
+        "start",
+        "end",
+        "cancelled_at"
+      ],
+      "primary_key": [
+        "confirm_id"
+      ],
+      "sha256": "23851f7731bf107e370277184251da8a31871f92a2e55358240e87370031c5dd"
+    },
+    "requests": {
+      "count": 12,
+      "fields": [
+        "request_id",
+        "kind",
+        "weather_bucket",
+        "coverage_class",
+        "start",
+        "end",
+        "asset_kind"
+      ],
+      "primary_key": [
+        "request_id"
+      ],
+      "sha256": "05e36fb533941db4ff25a21e758f4f1ec44d1acbf2602f97b7d5ca055055389c"
+    },
+    "corrections": {
+      "count": 1,
+      "fields": [
+        "correction_id",
+        "telemetry_id",
+        "issued_at",
+        "new_quality"
+      ],
+      "primary_key": [
+        "correction_id"
+      ],
+      "sha256": "ea51444a8a0ca8d546d76686a41bc7b29af1813459c7e4b4f93c2d28a16b5d34"
+    }
+  }
+}
