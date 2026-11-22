@@ -1,0 +1,2 @@
+{"policy_id":"RP-delivery","mission_kind":"delivery","minimum_observed_missions":12,"minimum_completion_lower":0.85,"safety_buffer_minutes":10}
+{"policy_id":"RP-inspection","mission_kind":"inspection","minimum_observed_missions":12,"minimum_completion_lower":0.85,"safety_buffer_minutes":10}

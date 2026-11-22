@@ -74,6 +74,20 @@
       ],
       "sha256": "0abf64ded1d1e1417f5e1efd7a3b388b6456a98fb1bb768a3181cec91aceaa44"
     },
+    "route_policy": {
+      "count": 2,
+      "fields": [
+        "policy_id",
+        "mission_kind",
+        "minimum_observed_missions",
+        "minimum_completion_lower",
+        "safety_buffer_minutes"
+      ],
+      "primary_key": [
+        "policy_id"
+      ],
+      "sha256": "f52d43853cb9a90b3a59296be76135f7125512ee57715e40d111ca111af64503"
+    },
     "confirmed_missions": {
       "count": 1,
       "fields": [
