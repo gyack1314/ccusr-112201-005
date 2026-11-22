@@ -59,7 +59,7 @@
       "primary_key": [
         "receipt_id"
       ],
-      "sha256": "03e28e71f6960379749a77c6017b47cc651f8f7392bd1cce8ca37827fc7560c6"
+      "sha256": "9aa0b8f9dab742f880bef35903ecc7d2ef34aea5b5dd1d85e6488246d28fc8b2"
     },
     "reserve_assets": {
       "count": 10,
